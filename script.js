@@ -57,3 +57,4 @@ searchInput.addEventListener("change", (e) => {
   searchAPI(searchInput.value);
   searchInput.value = "";
 });
+getMovies();
